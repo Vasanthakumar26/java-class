@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-03T10:12:12.304Z",
+        "line": 24,
+        "name": "1clx login page scenario",
+        "description": "",
+        "id": "this-is-to-test-1clx-login;1clx-login-page-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3887901300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2246795700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters valid \"logibif929@meidecn.com\" and \"V@santh1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"logibif929@meidecn.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"V@santh1234\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepDefinitions.PcxloginPage.the_user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2073813100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074145900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be navigated to home page",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.the_user_should_be_navigated_to_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2458001300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on profile link",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_click_on_profile_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4406897100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on details update",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_click_on_details_update()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4476316800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user change the profile",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_change_the_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6304837900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters password \"V@santh1234\" and \"V@santh123\" and \"V@santh123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"V@santh1234\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"V@santh123\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"V@santh123\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.PcxloginPage.user_enters_password_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4360923400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on password update button",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_click_on_password_update_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2290979700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters razorpay id \"rzp_test_vuVWkHnbavXAdC\" and \"JwXA4Cfh0LaOom2pio41F6C4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rzp_test_vuVWkHnbavXAdC\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"JwXA4Cfh0LaOom2pio41F6C4\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.PcxloginPage.user_enters_razorpay_id_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4389981800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on razorpay update",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_clicks_on_razorpay_update()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4446563200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user select the sell type",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_select_the_sell_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152513000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters gstin number \"07AAGFF2194N1Z1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07AAGFF2194N1Z1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.PcxloginPage.user_enters_gstin_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4359913200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on GSTIN number update",
+            "match": {
+              "location": "stepDefinitions.PcxloginPage.user_clicks_on_gstin_number_update()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is to test 1clx login",
+    "description": "",
+    "id": "this-is-to-test-1clx-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/PcxLogin.feature",
+    "tags": []
+  }
+]
